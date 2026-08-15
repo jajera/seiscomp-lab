@@ -1,0 +1,6 @@
+# Jekyll docs site build output
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.sass-cache/
+docs/vendor/

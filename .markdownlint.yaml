@@ -1,0 +1,6 @@
+# Jekyll/just-the-docs: front-matter `title` is nav/SEO, not an in-page H1.
+MD013: false
+MD033: false
+MD041: false
+MD025:
+  front_matter_title: ""
