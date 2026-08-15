@@ -24,9 +24,6 @@ A learning box needs outbound HTTPS (apt, gsm) and outbound TCP 18000 (GEOFON Se
 
 NAT Gateway was skipped on purpose. The instance sits in the **public** subnet with a public IP (or Elastic IP) and is administered with **SSM Session Manager**.
 
-{: .note }
-> An existing lab VPC in `10.80.0.0/16` (`asc-lab`) is unrelated. Do not reuse it unless it already has an internet gateway and a route to `0.0.0.0/0`.
-
 ## Network
 
 | Resource | Suggested name | CIDR / notes |
