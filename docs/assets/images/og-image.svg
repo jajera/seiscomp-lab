@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="SeisComP lab">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3f6f5"/>
+      <stop offset="55%" stop-color="#e8f0ee"/>
+      <stop offset="100%" stop-color="#dfeae7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="12%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#0f766e" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="100%" cy="10%" r="50%">
+      <stop offset="0%" stop-color="#0e7490" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0e7490" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+
+  <text x="72" y="92" fill="#0f766e" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em">jajera</text>
+  <text x="72" y="188" fill="#0b1c24" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="72" font-weight="700">SeisComP lab</text>
+  <text x="72" y="242" fill="#3d5560" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="28">Single-host learning lab on AWS Ubuntu</text>
+  <text x="72" y="286" fill="#5b7380" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="22">public gsm / GEOFON SeedLink / XFCE desktop</text>
+
+  <g transform="translate(72 360)">
+    <rect width="168" height="88" rx="16" fill="#ffffff" stroke="#c9d6d2"/>
+    <text x="84" y="38" text-anchor="middle" fill="#0f766e" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="16" font-weight="700">GEOFON</text>
+    <text x="84" y="62" text-anchor="middle" fill="#3d5560" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="14">SeedLink :18000</text>
+
+    <path d="M180 44h46" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M214 36l12 8-12 8" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="238" width="188" height="88" rx="16" fill="#0f766e"/>
+    <text x="332" y="38" text-anchor="middle" fill="#f5fffd" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="16" font-weight="700">Ubuntu host</text>
+    <text x="332" y="62" text-anchor="middle" fill="#d8ebe7" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="14">SeisComP 7.3.1</text>
+
+    <path d="M438 44h46" stroke="#0f766e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M472 36l12 8-12 8" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="496" width="168" height="88" rx="16" fill="#ffffff" stroke="#c9d6d2"/>
+    <text x="580" y="38" text-anchor="middle" fill="#0f766e" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="16" font-weight="700">Catalog</text>
+    <text x="580" y="62" text-anchor="middle" fill="#3d5560" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="14">MariaDB / FDSNWS</text>
+  </g>
+
+  <g transform="translate(760 118)">
+    <rect width="368" height="394" rx="28" fill="#ffffff" stroke="#c9d6d2"/>
+    <rect x="28" y="36" width="312" height="168" rx="18" fill="#0f171a"/>
+    <path
+      d="M48 120 h42 l18-46 22 92 24-118 26 136 22-78 18 32 h86"
+      fill="none"
+      stroke="#2dd4bf"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+    <text x="184" y="248" text-anchor="middle" fill="#0b1c24" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="22" font-weight="700">Acquisition to catalog</text>
+    <text x="184" y="284" text-anchor="middle" fill="#3d5560" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="16">one VPC, one public subnet</text>
+    <text x="184" y="314" text-anchor="middle" fill="#3d5560" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="16">SSM in, RDP optional</text>
+    <text x="184" y="360" text-anchor="middle" fill="#0f766e" font-family="Noto Sans, Liberation Sans, sans-serif" font-size="15" font-weight="700">not a production network</text>
+  </g>
+</svg>
