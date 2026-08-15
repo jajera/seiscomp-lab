@@ -1,0 +1,73 @@
+{
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.encoding": "utf8",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "docs/_site": true,
+    "docs/.jekyll-cache": true,
+    "docs/.jekyll-metadata": true,
+    "docs/.sass-cache": true,
+    "docs/vendor": true
+  },
+  "search.exclude": {
+    "docs/_site": true,
+    "docs/.jekyll-cache": true,
+    "docs/vendor": true
+  },
+  "files.associations": {
+    "docs/_config.yml": "yaml",
+    "docs/docker-compose.yml": "dockercompose",
+    ".github/workflows/*.yml": "github-actions-workflow"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.autoIndent": "advanced"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[shellscript]": {
+    "editor.tabSize": 2
+  },
+  "markdown.preview.breaks": false,
+  "markdownlint.config": {
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD025": {
+      "front_matter_title": ""
+    }
+  },
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yml",
+    "https://json.schemastore.org/github-action.json": ".github/actions/*/action.yml",
+    "https://json.schemastore.org/dependabot-2.0.json": ".github/dependabot.yml"
+  },
+  "terminal.integrated.env.linux": {
+    "AWS_PROFILE": "sandbox",
+    "AWS_DEFAULT_REGION": "ap-southeast-2",
+    "AWS_PAGER": ""
+  }
+}
