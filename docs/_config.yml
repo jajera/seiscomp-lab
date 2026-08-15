@@ -21,6 +21,19 @@ aux_links_new_tab: true
 # Built CSS: assets/css/just-the-docs-conduit{,-dark}.scss
 color_scheme: conduit
 
+favicon_ico: "/assets/images/favicon.ico"
+
+# Site-wide Open Graph / Twitter card (jekyll-seo-tag). Do not set `logo` —
+# just-the-docs would swap the header title for that image.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.png
+
+twitter:
+  card: summary_large_image
+
 sass:
   quiet_deps: true
   silence_deprecations:
