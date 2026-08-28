@@ -12,7 +12,7 @@ Single-host **SeisComP** learning lab on AWS Ubuntu. One EC2 runs acquisition, m
 
 ## Docs
 
-📖 **[Published documentation site](https://seiscomp.johna.kiwi/)** — architecture, SeisComP layout, desktop, walkthrough, prove, troubleshooting.
+📖 **[Published documentation site](https://seiscomp-lab.johna.kiwi/)** — architecture, SeisComP layout, desktop, walkthrough, prove, troubleshooting.
 
 | Doc                                                    | Purpose                                    |
 | ------------------------------------------------------ | ------------------------------------------ |
