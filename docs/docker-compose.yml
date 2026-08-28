@@ -4,7 +4,7 @@
 #   ./scripts/docs-serve.sh
 #   # or: docker compose -f docs/docker-compose.yml up
 #
-# Open http://127.0.0.1:4000/seiscomp-lab/
+# Open http://127.0.0.1:4000/
 
 services:
   docs:

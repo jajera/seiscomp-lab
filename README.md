@@ -12,7 +12,7 @@ Single-host **SeisComP** learning lab on AWS Ubuntu. One EC2 runs acquisition, m
 
 ## Docs
 
-📖 **[Published documentation site](https://jajera.github.io/seiscomp-lab/)** — architecture, SeisComP layout, desktop, walkthrough, prove, troubleshooting.
+📖 **[Published documentation site](https://seiscomp.johna.kiwi/)** — architecture, SeisComP layout, desktop, walkthrough, prove, troubleshooting.
 
 | Doc                                                    | Purpose                                    |
 | ------------------------------------------------------ | ------------------------------------------ |
@@ -34,7 +34,7 @@ The site is built with [just-the-docs](https://just-the-docs.com/) and deploys f
 ./scripts/docs-serve.sh
 ```
 
-Open [http://127.0.0.1:4000/seiscomp-lab/](http://127.0.0.1:4000/seiscomp-lab/).
+Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
 
 ## Layout
 
