@@ -4,7 +4,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-URL="http://127.0.0.1:4000/seiscomp-lab/"
+URL="http://127.0.0.1:4000/"
 
 if command -v docker >/dev/null 2>&1; then
   echo "Starting docs with Docker Compose..."
