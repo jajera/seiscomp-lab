@@ -3,6 +3,8 @@ description: >-
   Single-host SeisComP learning lab on AWS Ubuntu: gsm public packages,
   MariaDB, GEOFON SeedLink, XFCE desktop.
 
+ga_tracking: G-6GP64SX615
+
 theme: just-the-docs
 
 url: https://seiscomp-lab.johna.kiwi
